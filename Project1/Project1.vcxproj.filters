@@ -20,14 +20,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shaders\VertexShader.vert" />
-    <None Include="Shaders\FragmentShader.frag" />
-    <None Include="Shaders\compileShader.bat">
+    <None Include="assets\Shaders\VertexShader.vert" />
+    <None Include="assets\Shaders\FragmentShader.frag" />
+    <None Include="assets\Shaders\compileShader.bat">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="extern\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\tiny_obj_loader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

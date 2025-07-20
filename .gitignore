@@ -402,3 +402,5 @@ FodyWeavers.xsd
 
 *.ipch
 *.VC.db
+
+.Project1/extern/*
